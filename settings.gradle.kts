@@ -23,20 +23,29 @@ rootProject.name = "DevCraft"
 include(":app")
 
 // Core
-include(":core:core-ui")
-include(":core:core-utils")
-include(":core:core-di")
+//include(":core:ui") // Общие компоненты UI: стили, темы, кнопки, шрифты
+//include(":core:utils") // Утилиты, расширения
+//include(":core:di") // DI setup (Koin/Hilt/Dagger) базовый
+//include(":core:navigation") // Навигация, если она общая (Cicerone setup)
+//include(":core:base") // Базовые классы (BaseFragment, BaseViewModel и т.д.)
+//include(":core:network") // Общая настройка Retrofit/OkHttp (если не вынесена в data)
+
 
 // Data
-include(":data:data-api")
-include(":data:data-db")
-include(":data:data-repository")
-include(":data:model")
+include(":data:api") // Retrofit, DTO
+include(":data:databases") // Room, DAO
+include(":data:repository") // Реализация репозиториев
+include(":data:model") // data-модели
 
 // Features
 include(":features:newsfeed")
-include(":features:chat")
+include(":features:chatWebSocketGemini")
 include(":features:profile")
 include(":features:dashboard")
 include(":features:settings")
 include(":features:media_center")
+
+include(":core")
+include(":test")
+include(":features")
+include(":data")
