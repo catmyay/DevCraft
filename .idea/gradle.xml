@@ -18,7 +18,7 @@
             <option value="$PROJECT_DIR$/data/model" />
             <option value="$PROJECT_DIR$/data/repository" />
             <option value="$PROJECT_DIR$/features" />
-            <option value="$PROJECT_DIR$/features/chat" />
+            <option value="$PROJECT_DIR$/features/chatWebSocketGemini" />
             <option value="$PROJECT_DIR$/features/dashboard" />
             <option value="$PROJECT_DIR$/features/media_center" />
             <option value="$PROJECT_DIR$/features/newsfeed" />

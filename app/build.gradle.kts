@@ -72,4 +72,6 @@ dependencies {
     implementation(libs.coil)
 
     implementation(libs.cicerone)
+
+    implementation(project(":core"))
 }
